@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.311" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="navigations" name="navigations test" time="0.034">
-<failure/>
+<testsuite name="Cucumber" time="21.229" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="dropdown" name="TC01_selecting birth year" time="20.874">
 <system-out><![CDATA[
-Given I navigate to "https://www.google.com"................................passed
-And I navigate to "https://www.amazon.com"..................................passed
-And I wait for 3 seconds....................................................skipped
-And I navigate back.........................................................skipped
-And I navigate forward......................................................skipped
-And I refresh the page......................................................skipped
-Then I hold the browser open................................................skipped
+Given I navigate to "https://testcenter.techproeducation.com/index.php?page=dropdown".passed
+And I select the year as 2009...............................................passed
+And I select the months as "January"........................................passed
+And I select the day as 17..................................................passed
+And I get the list of US states and click on "California"...................passed
+And I hold the browser open.................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

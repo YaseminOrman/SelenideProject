@@ -8,7 +8,6 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class GooglePage {
-
     public SelenideElement googleSearchBox=$(By.name("q"));
     public SelenideElement resultSection = $(By.id("result-stats"));
 
